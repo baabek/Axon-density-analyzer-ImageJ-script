@@ -22,7 +22,7 @@ The script works with .tif files of confocal Z-stacks captured at high magnifica
 
 3. Run the 'skeletonizer.ijm' script in ImageJ with your .tif image file open. This script finds axons in your image based on a threshold level you set.
 
-4. Follow the script's instructions: point to the folder where you saved the necessary kernels* and create a new folder where you want to save your frames. You may have to take a few rounds figuring out the appropiate threshold levels and kernels for your images. You can analyze multiple channels in the same time with different thresholds and kernels. Let the script run. 
+4. Follow the script's instructions: point to the folder where you unpacked kernels.rar* and create a new folder where you want to save your frames. You may have to take a few rounds figuring out the appropiate threshold levels and kernels for your images. You can analyze multiple channels in the same time with different thresholds and kernels. Let the script run. 
 
 5. When finished, a log window pops up with the elapsed time. You now have separate .tif files for each channel in the previously defined folder. Check the these frame images and compare them to your original images. If they seem OK, you can proceed. Please note that out-of-focus or noisy planes might cause errors: you should remove such planes.
 
